@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <>
-      <nav className="px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
+      <nav className="md:px-[5rem] py-2 fixed w-full z-20 top-0 left-0">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a href="" className="flex items-center">
             <span className="self-center text-2xl font-bold whitespace-nowrap">
@@ -9,15 +9,17 @@ export default function Navbar() {
             </span>
           </a>
           <div className="flex items-center justify-between space-x-8 text-lg md:order-2">
-            <span href="#" aria-current="page">
-              Login
-            </span>
-            <button
-              type="button"
-              className="text-white bg-black rounded-lg text-base px-5 py-2.5 text-center mr-3 md:mr-0"
-            >
-              Get Started
-            </button>
+            <div className="invisible md:visible space-x-8">
+              <span href="#" aria-current="page">
+                Login
+              </span>
+              <button
+                type="button"
+                className="text-white bg-black rounded-lg text-base font-semibold px-5 py-2.5 text-center mr-3 md:mr-0"
+              >
+                Get Started
+              </button>
+            </div>
             <button
               data-collapse-toggle="navbar-sticky"
               type="button"
