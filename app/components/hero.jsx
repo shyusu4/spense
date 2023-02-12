@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Hero() {
   return (
     <>
@@ -13,7 +15,14 @@ export default function Hero() {
               doing just that.
             </p>
           </div>
-          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex"></div>
+          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <Image
+              src="/assets/desktop-hero.png"
+              width={500}
+              height={500}
+              alt="Hero image"
+            />
+          </div>
         </div>
       </section>
     </>
