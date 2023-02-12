@@ -1,4 +1,10 @@
 import './globals.css'
+import { Cabin } from '@next/font/google'
+
+const cabin = Cabin({
+  subsets: ['latin'],
+  variable: '--font-cabin',
+})
 
 export default function RootLayout({ children }) {
   return (
@@ -8,7 +14,7 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body className={`${cabin.variable} font-sans`}>{children}</body>
     </html>
   )
 }
