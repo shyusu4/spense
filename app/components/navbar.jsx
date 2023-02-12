@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <>
-      <nav className="md:px-[5rem] py-2 fixed w-full z-20 top-0 left-0">
+      <nav className="md:px-[5rem] py-2 w-full z-20 top-0 left-0 right-0">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a href="" className="flex items-center">
             <span className="self-center text-2xl font-bold whitespace-nowrap">
