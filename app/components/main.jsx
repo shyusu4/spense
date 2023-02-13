@@ -3,6 +3,7 @@ import Hero from './hero';
 import Logos from './logos';
 import EscrowCard from './escrowcard';
 import EditorCard from './editorcard';
+import Footer from './footer';
 
 export default function Main() {
   return (
@@ -16,6 +17,7 @@ export default function Main() {
         <EscrowCard />
         <EditorCard />
       </main>
+      <Footer />
     </>
   );
 }
