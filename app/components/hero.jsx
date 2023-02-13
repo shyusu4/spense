@@ -14,7 +14,7 @@ export default function Hero() {
               unfiltered thoughts. Discuss the topics you love, and get paid for
               doing <i>just</i> that.
             </p>
-            <ul>
+            <ul className="mb-5">
               <li className="flex items-center mb-2 text-gray-700">
                 <Image
                   src={'/assets/Checkmark.svg'}
@@ -49,6 +49,21 @@ export default function Hero() {
                 </span>
               </li>
             </ul>
+            <div className="flex items-center gap-3">
+              <input
+                type="email"
+                id="email"
+                class="bg-gray-50 border border-gray-300 text-gray-900 rounded-md block px-5 py-2.5"
+                placeholder="john@example.com"
+                required
+              />
+              <button
+                type="button"
+                className="text-white bg-black rounded-md text-base font-semibold px-5 py-2.5 text-center mr-3 md:mr-0"
+              >
+                Get Started
+              </button>
+            </div>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
             <Image
