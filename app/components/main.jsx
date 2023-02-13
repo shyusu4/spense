@@ -2,6 +2,7 @@ import Navbar from './navbar';
 import Hero from './hero';
 import Logos from './logos';
 import EscrowCard from './escrowcard';
+import EditorCard from './editorcard';
 
 export default function Main() {
   return (
@@ -13,6 +14,7 @@ export default function Main() {
       <main className="px-[150px] py-[20px]">
         <Logos />
         <EscrowCard />
+        <EditorCard />
       </main>
     </>
   );
