@@ -68,8 +68,8 @@ export default function Hero() {
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
             <Image
               src="/assets/desktop-hero.png"
-              width={500}
-              height={500}
+              width={600}
+              height={600}
               alt="Hero image"
             />
           </div>
