@@ -9,13 +9,13 @@ export default function Navbar() {
             </span>
           </a>
           <div className="flex items-center justify-between text-lg md:order-2">
-            <div className="space-x-5 invisible md:visible">
+            <div className="lg:space-x-5 md:space-x-2 invisible md:visible">
               <span href="#" aria-current="page">
                 Login
               </span>
               <button
                 type="button"
-                className="text-white bg-black rounded-lg text-base font-semibold px-5 py-2.5 text-center"
+                className="text-white bg-black rounded-lg text-base font-semibold lg:px-5 lg:py-2.5 md:px-3 md:py-1.5 text-center"
               >
                 Get Started
               </button>
@@ -44,7 +44,7 @@ export default function Navbar() {
             </button>
           </div>
           <div className="items-center justify-between hidden md:flex md:w-auto md:order-1">
-            <ul className="flex flex-row space-x-5 text-lg">
+            <ul className="flex flex-row lg:space-x-5 md:space-x-2 text-lg">
               <li>
                 <a
                   href="#"

@@ -8,16 +8,11 @@ import Footer from './footer';
 export default function Main() {
   return (
     <>
-      <header className="px-[150px] py-[20px] bg-gray-beige">
+      <header className="lg:px-[150px] md:px-[50px] py-[20px] bg-gray-beige">
         <Navbar />
         <Hero />
       </header>
-      <main className="px-[150px] py-[20px]">
-        <Logos />
-        <EscrowCard />
-        <EditorCard />
-      </main>
-      <Footer />
+      <main className="lg:px-[150px] md:px-[50px] py-[20px]"></main>
     </>
   );
 }

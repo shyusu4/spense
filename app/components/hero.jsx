@@ -4,8 +4,8 @@ export default function Hero() {
   return (
     <>
       <section>
-        <div className="flex items-center justify-between gap-8 mt-8">
-          <div className="place-self-center lg:col-span-7">
+        <div className="flex items-center justify-between gap-8 mt-8 lg:flex-row md:flex-col">
+          <div className="lg:place-self-center md:mr-auto lg:col-span-7 lg:order-1 md:order-2">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
               Share your unfiltered thoughts. Get paid.
             </h1>
@@ -65,10 +65,18 @@ export default function Hero() {
               </button>
             </div>
           </div>
-          <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+          <div className="hidden lg:mt-0 lg:col-span-5 lg:flex lg:order-2">
             <Image
               src="/assets/desktop-hero.png"
               width={500}
+              height={500}
+              alt="hero image"
+            />
+          </div>
+          <div className="lg:hidden md:mt-0 md:col-span-5 md:flex md:order-1">
+            <Image
+              src="/assets/tablet-hero.png"
+              width={800}
               height={500}
               alt="hero image"
             />
