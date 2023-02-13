@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <>
       <section>
-        <div className="grid top-5 gap-8 lg:py-16 lg:grid-cols-12">
+        <div className="flex items-center justify-between gap-8 mt-8">
           <div className="place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
               Share your unfiltered thoughts. Get paid.
@@ -68,8 +68,8 @@ export default function Hero() {
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
             <Image
               src="/assets/desktop-hero.png"
-              width={600}
-              height={600}
+              width={500}
+              height={500}
               alt="Hero image"
             />
           </div>

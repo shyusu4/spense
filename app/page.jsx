@@ -5,7 +5,7 @@ import Hero from './components/hero';
 export default function Home() {
   return (
     <>
-      <header className="px-[100px] bg-gray-beige">
+      <header className="px-[100px] py-[20px] bg-gray-beige">
         <Navbar />
         <Hero />
       </header>
