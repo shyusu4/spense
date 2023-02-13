@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
         <div>
           <h3 className="text-lg font-bold mb-2">Opportunities</h3>
-          <a href="#" class="text-gray-500">
+          <a href="#" className="text-gray-500">
             Jobs
           </a>
         </div>
