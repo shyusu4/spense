@@ -6,7 +6,7 @@ export default function Hero() {
       <section>
         <div className="flex items-center justify-between gap-8 mt-8">
           <div className="place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
               Share your unfiltered thoughts. Get paid.
             </h1>
             <p className="max-w-2xl mb-4 font-light text-gray-500 md:text-lg lg:text-xl">
