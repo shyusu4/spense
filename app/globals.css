@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    margin: 0;
-    padding: 0;
+:root {
+  --bg-header-section2: #f0eeeb;
+  --body-color-copy: #5a5444;
+  --footer-color-copy: #9e9e9e;
+  --link-hover: #4c4c4c;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+

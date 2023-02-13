@@ -4,8 +4,8 @@ export default function Hero() {
   return (
     <>
       <section>
-        <div className="grid max-w-screen-xl py-8 top-5 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-          <div className="mr-auto place-self-center lg:col-span-7">
+        <div className="grid top-5 gap-8 lg:py-16 lg:grid-cols-12">
+          <div className="place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
               Share your unfiltered thoughts. Get paid.
             </h1>
@@ -59,7 +59,7 @@ export default function Hero() {
               />
               <button
                 type="button"
-                className="text-white bg-black rounded-md text-base font-semibold px-5 py-2.5 text-center mr-3 md:mr-0"
+                className="text-white bg-black rounded-md text-base font-semibold px-5 py-2.5 text-center"
               >
                 Get Started
               </button>

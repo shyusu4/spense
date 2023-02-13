@@ -5,8 +5,10 @@ import Hero from './components/hero';
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
+      <header className="px-[100px] bg-gray-beige">
+        <Navbar />
+        <Hero />
+      </header>
     </>
   );
 }
